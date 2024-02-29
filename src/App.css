@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Titulo h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.Buscador {
+  border-bottom: 1px solid white;
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Buscador input {
+  width: 80%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.Buscador input::placeholder {
+  color: white;
+}
+
+.Buscador button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Endereco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
