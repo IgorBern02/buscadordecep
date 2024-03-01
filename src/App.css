@@ -61,3 +61,18 @@
   color: black;
   padding: 10px;
 }
+
+@media screen and (min-width: 375px) {
+  .Titulo h1 {
+    font-size: 3.5em;
+  }
+
+  .Buscador {
+    width: 75%;
+    margin-left: 15%;
+  }
+
+  .Buscador input {
+    font-size: 20px;
+  }
+}
